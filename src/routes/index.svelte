@@ -16,7 +16,7 @@
 {:then users}
   {#each users as user}
   <p>{user.name}</p>
-  {/catch}
+  {/each}
 {:catch err}
 <p>{err}</p>
 {/await}
