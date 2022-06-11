@@ -1,5 +1,5 @@
 <script>
-  import Link from "$lib/Link"
+  import Link from "$lib/Link.svelte"
   
   async function load() {
     let res = await fetch("https://jsonplaceholder.typicode.com/users/")
