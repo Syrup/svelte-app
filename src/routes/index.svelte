@@ -16,5 +16,5 @@
 {:then user}
 <p>{user.name}</p>
 {:catch err}
-<p>{catch}</p>
+<p>{err}</p>
 {/await}
