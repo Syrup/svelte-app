@@ -1,4 +1,6 @@
 <script>
+  import Link from "$lib/Link"
+  
   async function load() {
     let res = await fetch("https://jsonplaceholder.typicode.com/users/")
     let users = await res.json()
@@ -10,6 +12,8 @@
   
   let promise = load()
 </script>
+
+<Link to="about">About</Link>
 
 {#await promise}
 <p>Loading...</p>
