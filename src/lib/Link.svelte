@@ -1,5 +1,5 @@
 <script>
-  export { className as class }, to, variant;
+  export { className as class, to, variant };
   let className = ""
 </script>
 
