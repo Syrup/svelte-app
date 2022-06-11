@@ -1,6 +1,6 @@
 <script>
   async function load() {
-    let res = await fetch("jsonplaceholder.typicode.com/users/")
+    let res = await fetch("https://jsonplaceholder.typicode.com/users/")
     let users = await res.json()
     
     if(res.ok) {
