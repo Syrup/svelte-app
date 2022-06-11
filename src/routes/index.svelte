@@ -14,6 +14,8 @@
   let promise = load()
 </script>
 
+<Styles />
+
 <Link to="about">About</Link>
 
 {#await promise}
