@@ -4,4 +4,4 @@
   let className = ""
 </script>
 
-<a href={to.startsWith("/") ? to : to.startsWith("https://") ? to : to.startsWith("http://") ? to : `/${to}` } target="_blank" class={className + " link-primary"}><slot></slot></a>
+<a href={to.startsWith("/") ? to : to.startsWith("https://") ? to : to.startsWith("http://") ? to : `/${to}` } target="_blank" class="link link-primary" + className}><slot></slot></a>
