@@ -1,5 +1,6 @@
 <script>
-  import Link from "$lib/Link.svelte"
+  import Link from "$lib/Link.svelte";
+  import { Styles } from "sveltestrap"
   
   async function load() {
     let res = await fetch("https://jsonplaceholder.typicode.com/users/")
