@@ -2,7 +2,7 @@
   import 'bulma/css/bulma.css'
   import '@fortawesome/fontawesome-free/css/all.css'
   import Link from "$lib/Link.svelte";
-  import { Route, Routes } from "svelte-navigator"
+  import { Route, Router } from "svelte-navigator"
   import { Styles } from "sveltestrap"
   
   async function load() {
@@ -19,7 +19,8 @@
 
 <Styles />
 
-<Routes>
+<Router>
+
 <nav>
   <Link to="about" variant="success">About</Link>
 </nav>
@@ -36,4 +37,4 @@
 {/await}
 </Route>
 
-</Routes>
+</Router>
