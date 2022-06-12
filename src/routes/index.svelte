@@ -27,15 +27,7 @@
 </nav>
 
 <Route path="/">
-{#await promise}
-<p>Loading...</p>
-{:then users}
-  {#each users as user}
-  <p>{user.name}</p>
-  {/each}
-{:catch err}
-<p>{err}</p>
-{/await}
+<h1>Home</h1>
 </Route>
 
 <Route path="about">
