@@ -22,6 +22,7 @@
 <Router>
 
 <nav>
+  <Link to="/" variant="success">Home</Link>
   <Link to="about" variant="success">About</Link>
 </nav>
 
@@ -35,6 +36,10 @@
 {:catch err}
 <p>{err}</p>
 {/await}
+</Route>
+
+<Route path="about">
+  <h1>Hello World!</h1>
 </Route>
 
 </Router>
