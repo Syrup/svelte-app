@@ -22,7 +22,6 @@
 		"bulma": "latest",
 		"svelma": "latest",
 		"node-sass": "latest",
-		"svelte-navigator": "latest",
 		"svelte-preprocess": "latest",
 		"rollup-plugin-postcss": "latest",
 		"@fortawesome/fontawesome-free": "latest",

@@ -1,8 +1,8 @@
 <script>
-  import 'bulma/css/bulma.css'
-  import '@fortawesome/fontawesome-free/css/all.css'
+  // import 'bulma/css/bulma.css'
+  // import '@fortawesome/fontawesome-free/css/all.css'
   import Link from "$lib/Link.svelte";
-  import { Route, Router } from "svelte-navigator"
+  // import { Route, Router } from "svelte-navigator"
   import { Styles } from "sveltestrap"
   
   async function load() {
@@ -19,19 +19,9 @@
 
 <Styles />
 
-<Router>
-
 <nav>
   <Link to="/" variant="success">Home</Link>
-  <Link to="abou" variant="success">About</Link>
+  <Link to="/about" variant="success">About</Link>
 </nav>
 
-<Route path="/">
 <h1>Home</h1>
-</Route>
-
-<Route path="abou">
-  <h1>Hello World!</h1>
-</Route>
-
-</Router>

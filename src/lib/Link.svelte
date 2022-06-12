@@ -6,4 +6,4 @@
   let variant = "primary"
 </script>
 
-<a href={to} class={`link link-${variant} ${className}`} use:link><slot></slot></a>
+<a href={to} class={`link link-${variant} ${className}`}><slot></slot></a>
