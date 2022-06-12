@@ -7,7 +7,7 @@
 
 <Navbar color="light" light>
   <NavbarBrand href="/" class="me-auto">sveltestrap</NavbarBrand>
-  <NavbarToggler on:click={toggle} class="me-2" />
+  <NavbarToggle on:click={toggle} class="me-2" />
   <Collapse {isOpen} navbar>
     <Nav navbar>
       <NavItem>
