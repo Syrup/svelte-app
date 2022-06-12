@@ -19,6 +19,13 @@
 		"prettier-plugin-svelte": "^2.7.0",
 		"svelte": "^3.44.0",
 		"sveltestrap": "latest",
+		"bulma": "latest",
+		"svelma": "latest",
+		"node-sass": "latest",
+		"svelte-navigator": "latest",
+		"svelte-preprocess": "latest",
+		"rollup-plugin-postcss": "latest",
+		"@fortawesome/fontawesome-free": "latest",
 		"svelte-check": "^2.7.1",
 		"typescript": "^4.7.2"
 	},
