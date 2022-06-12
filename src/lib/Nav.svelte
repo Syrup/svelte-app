@@ -5,7 +5,7 @@
   const toggle = () => isOpen = !isOpen
 </script>
 
-<Navbar color="light" light>
+<Navbar color="dark" dark>
   <NavbarBrand href="/" class="me-auto">sveltestrap</NavbarBrand>
   <NavbarToggler on:click={toggle} class="me-2" />
   <Collapse {isOpen} navbar>
