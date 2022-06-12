@@ -1,5 +1,5 @@
 <script>
-  import { link } from "svelte-navigator"
+  // { link } from "svelte-navigator"
   export { className as class, to, variant };
   let className = ""
   let to;
