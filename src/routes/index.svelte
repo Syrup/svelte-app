@@ -3,7 +3,7 @@
   // import '@fortawesome/fontawesome-free/css/all.css'
   import Link from "$lib/Link.svelte";
   // import { Route, Router } from "svelte-navigator"
-  import { Styles } from "sveltestrap"
+  import { Styles, Container } from "sveltestrap"
   import Nav from "$lib/Nav.svelte"
   
   async function load() {
@@ -19,6 +19,8 @@
 </script>
 
 <Styles />
+
+<Container>
 <Nav />
 
 <!-- <nav>
@@ -28,3 +30,4 @@
   -->
 
 <h1>Home</h1>
+</Container>

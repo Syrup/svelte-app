@@ -6,7 +6,7 @@
 </script>
 
 <Navbar color="dark" dark>
-  <NavbarBrand href="/" class="me-auto">sveltestrap</NavbarBrand>
+  <NavbarBrand href="/" class="me-auto">svelte-app</NavbarBrand>
   <NavbarToggler on:click={toggle} class="me-2" />
   <Collapse {isOpen} navbar>
     <Nav navbar>
