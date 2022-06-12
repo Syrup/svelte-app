@@ -4,6 +4,7 @@
   import Link from "$lib/Link.svelte";
   // import { Route, Router } from "svelte-navigator"
   import { Styles } from "sveltestrap"
+  import Nav from "$lib/Nav.svelte"
   
   async function load() {
     let res = await fetch("https://jsonplaceholder.typicode.com/users/")
@@ -18,10 +19,12 @@
 </script>
 
 <Styles />
+<Nav />
 
-<nav>
+<!-- <nav>
   <Link to="/" variant="success">Home</Link>
   <Link to="/about" variant="success">About</Link>
 </nav>
+  -->
 
 <h1>Home</h1>
