@@ -23,14 +23,14 @@
 
 <nav>
   <Link to="/" variant="success">Home</Link>
-  <Link to="about" variant="success">About</Link>
+  <Link to="abou" variant="success">About</Link>
 </nav>
 
 <Route path="/">
 <h1>Home</h1>
 </Route>
 
-<Route path="about">
+<Route path="abou">
   <h1>Hello World!</h1>
 </Route>
 
