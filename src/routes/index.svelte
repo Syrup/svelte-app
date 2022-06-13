@@ -50,7 +50,7 @@
   <h4>My project</h4>
   <br />
   <Button id="github"><Icon name="github" /> Github</Button>
-  <Fade class="mb-4" target="#github">
+  <Fade class="mb-4" toggler="#github">
     <Github />
   </Fade>
 </Card>
