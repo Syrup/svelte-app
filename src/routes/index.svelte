@@ -11,7 +11,9 @@
     Container,
     Card,
     Collapse,
-    Icon
+    Icon,
+    Row,
+    Col
   } from "sveltestrap"
   import Nav from "$lib/Nav.svelte"
   // const file = fs.readFileSync("")
@@ -36,23 +38,19 @@
 
 <Nav />
 <Container fluid class="mt-3">
-
-<!-- <nav>
-  <Link to="/" variant="success">Home</Link>
-  <Link to="/about" variant="success">About</Link>
-</nav>
-  -->
-
-<h1>Home</h1>
-<br />
-
-<Card body>
-  <h4>My project</h4>
-  <br />
-  <Button id="github" class="mb-3"><Icon name="github" /> Github</Button>
-  <Collapse toggler="#github">
-    <Github />
-  </Collapse>
-</Card>
-
+  <Row>
+    <h1>Home</h1>
+    <br />
+    
+    <Card body>
+      <h4>My project</h4>
+      <br />
+        <Col sm={{ size: "auto" }}>
+          <Button id="github" class="mb-3"><Icon name="github" /> Github</Button>
+        </Col>
+      <Collapse toggler="#github">
+        <Github />
+      </Collapse>
+    </Card>
+</Row>
 </Container>
