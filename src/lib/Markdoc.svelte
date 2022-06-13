@@ -10,6 +10,7 @@
   let vars
   
   const file = util.readFile("/markdown/"+paths, "utf8")
+  util.readdir(process.cwd())
   
   const fmm = fm(file)
   
