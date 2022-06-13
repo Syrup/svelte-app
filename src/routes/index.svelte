@@ -34,5 +34,5 @@
 
 <h1>Home</h1>
 
-<Markdoc path="index.md" vars={{ name: "Syrup }} />
+<Markdoc path="index.md" vars={{ name: "Syrup" }} />
 </Container>
