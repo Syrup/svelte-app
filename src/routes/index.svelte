@@ -35,7 +35,7 @@
 <Styles />
 
 <Nav />
-<Container class="mt-3">
+<Container fluid class="mt-3">
 
 <!-- <nav>
   <Link to="/" variant="success">Home</Link>
