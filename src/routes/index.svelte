@@ -7,7 +7,7 @@
   import { Styles, Container } from "sveltestrap"
   import Nav from "$lib/Nav.svelte"
   
-  const file = fs.readFileSync("")
+  // const file = fs.readFileSync("")
   
   async function load() {
     let res = await fetch("https://jsonplaceholder.typicode.com/users/")
