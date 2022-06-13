@@ -18,6 +18,8 @@
   
   let isGithubOpen = false;
   
+  let toggleGithub = () => (isGithubOpen = !isGithubOpen)
+  
   async function load() {
     let res = await fetch("https://jsonplaceholder.typicode.com/users/")
     let users = await res.json()
@@ -45,6 +47,7 @@
 <br />
 
 <Card body>
+  My project
   
   <Button on:click={toggleGithub}><Icon name="github" /> Github</Button>
   <Fade bind:isOpen={isGithubOpen}>
