@@ -14,7 +14,7 @@
         <NavLink href="/about">About</NavLink>
       </NavItem>
       <NavItem>
-        <NavLink href="https://github.com/bestguy/sveltestrap">GitHub</NavLink>
+        <NavLink href="https://github.com/Syrup">GitHub</NavLink>
       </NavItem>
     </Nav>
   </Collapse>

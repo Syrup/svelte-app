@@ -10,7 +10,7 @@
     Button,
     Container,
     Card,
-    Fade,
+    Collapse,
     Icon
   } from "sveltestrap"
   import Nav from "$lib/Nav.svelte"
@@ -35,7 +35,7 @@
 <Styles />
 
 <Nav />
-<Container>
+<Container class="mt-3">
 
 <!-- <nav>
   <Link to="/" variant="success">Home</Link>
@@ -49,10 +49,10 @@
 <Card body>
   <h4>My project</h4>
   <br />
-  <Button id="github" class="mb-4"><Icon name="github" /> Github</Button>
-  <Fade toggler="#github">
+  <Button id="github" class="mb-3"><Icon name="github" /> Github</Button>
+  <Collapse toggler="#github">
     <Github />
-  </Fade>
+  </Collapse>
 </Card>
 
 </Container>
