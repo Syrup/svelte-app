@@ -4,6 +4,7 @@ import { resolve } from "path";
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
+  extensions: [".svelte", ".md"],
   preprocess: preprocess(),
 	kit: {
 		adapter: adapter(),
