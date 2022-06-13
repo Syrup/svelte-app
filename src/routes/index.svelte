@@ -37,7 +37,7 @@
 <Styles />
 
 <Nav />
-<Container fluid class="mt-3">
+<Container fluid class="mt-3 text-center">
   <h1>Home</h1>
   <br />
   <Card body>
