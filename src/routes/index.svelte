@@ -2,7 +2,7 @@
   // import 'bulma/css/bulma.css'
   // import '@fortawesome/fontawesome-free/css/all.css'
   import Link from "$lib/Link.svelte";
-  import Markdoc from "$lib/Markdoc.svelte";
+  // import Markdoc from "$lib/Markdoc.svelte";
   // import { Route, Router } from "svelte-navigator"
   import { Styles, Container } from "sveltestrap"
   import Nav from "$lib/Nav.svelte"
@@ -33,6 +33,14 @@
   -->
 
 <h1>Home</h1>
+<br />
+{#await promise}
+{:then users}
+  {#each users as user}
+    <h5>{user.name}</h5>
+  {/each}
+{:catch err}
+<h3>{err}</h3>
+{/await}
 
-<Markdoc path="index.md" vars={{ name: "Syrup" }} />
 </Container>
