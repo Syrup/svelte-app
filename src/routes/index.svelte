@@ -38,19 +38,18 @@
 
 <Nav />
 <Container fluid class="mt-3">
-  <Row>
-    <h1>Home</h1>
+  <h1>Home</h1>
+  <br />
+  <Card body>
+    <h4>My project</h4>
     <br />
-    
-    <Card body>
-      <h4>My project</h4>
-      <br />
-        <Col sm={{ size: "auto" }}>
-          <Button id="github" class="mb-3"><Icon name="github" /> Github</Button>
-        </Col>
-      <Collapse toggler="#github">
-        <Github />
-      </Collapse>
-    </Card>
-</Row>
+    <Row>
+      <Col sm={{ size: "auto" }}>
+        <Button id="github" class="mb-3"><Icon name="github" /> Github</Button>
+      </Col>
+    </Row>
+    <Collapse toggler="#github">
+      <Github />
+    </Collapse>
+  </Card>
 </Container>
