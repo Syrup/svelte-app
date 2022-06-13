@@ -1,7 +1,17 @@
 [{
   "name": "Syrup",
-  "repo": "https://github.com/Syrup/Syrup"
+  "repo": "https://github.com/Syrup/Syrup",
+  "text": "This is my main repo.",
+  "authors": [{
+    "username": "Syrup",
+    "link": "https://github.com/Syrup"
+  }]
 }, {
   "name": "markdownitapp",
-  "repo": "https://github.com/Syrup/markdownitapp"
+  "repo": "https://github.com/Syrup/markdownitapp",
+  "text": "Create your personal website using only markdown.",
+  "authors": [{
+    "username": "Syrup",
+    "link": "https://github.com/Syrup"
+  }]
 }]

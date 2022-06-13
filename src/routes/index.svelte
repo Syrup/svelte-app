@@ -4,7 +4,17 @@
   import Link from "$lib/Link.svelte";
   // import Markdoc from "$lib/Markdoc.svelte";
   // import { Route, Router } from "svelte-navigator"
-  import { Styles, Container } from "sveltestrap"
+  import {
+    Styles,
+    Container
+    Card,
+    CardBody,
+    CardHeader,
+    CardSubtitle,
+    CardText,
+    CardTitle,
+    Icon
+  } from "sveltestrap"
   import Nav from "$lib/Nav.svelte"
   import repos from "../../static/data/repos.json"
   
@@ -46,7 +56,16 @@
 {/await}
 
 {#each repos as repo}
-<p>{repo.name}: {repo.repo}</p>
+<Card color="dark" class="mb-3">
+  <CardHeader>
+    <CardTitle>{repo.name}</CardTitle>
+  </CardHeader>
+  <CardBody>
+    <CardSubtitle>by {@html repo.authors.map(a => `<a href=${a.link} target="_blank">${a.name}</a>`).join(", ")}</CardSubtitle>
+    <CardText>{repo.text}</CardText>
+    <a href={repo.repo} class="btn btn-outline-dark"><Icon name="box-arrow-up-right" /> Go to repo</a>
+  </CardBody>
+</Card>
 {/each}
 
 </Container>
