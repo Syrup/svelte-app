@@ -49,8 +49,8 @@
 <Card body>
   <h4>My project</h4>
   <br />
-  <Button id="github"><Icon name="github" /> Github</Button>
-  <Fade class="mb-4" toggler="#github">
+  <Button id="github" class="mb-4"><Icon name="github" /> Github</Button>
+  <Fade toggler="#github">
     <Github />
   </Fade>
 </Card>
