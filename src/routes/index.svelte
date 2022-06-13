@@ -6,7 +6,7 @@
   // import { Route, Router } from "svelte-navigator"
   import { Styles, Container } from "sveltestrap"
   import Nav from "$lib/Nav.svelte"
-  import repos from "../../static/data/repos.json" assert {type: 'json'}
+  import repos from "../../static/data/repos.json"
   
   // const file = fs.readFileSync("")
   
