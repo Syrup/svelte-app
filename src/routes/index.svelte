@@ -13,6 +13,7 @@
     CardSubtitle,
     CardText,
     CardTitle,
+    CardFooter,
     Icon
   } from "sveltestrap"
   import Nav from "$lib/Nav.svelte"
@@ -47,15 +48,16 @@
 <br />
 
 {#each repos as repo}
-<Card color="dark" class="mb-3 text-white">
+<Card color="dark" inverse class="mb-3">
   <CardHeader>
     <CardTitle>{repo.name}</CardTitle>
   </CardHeader>
   <CardBody>
-    <CardSubtitle>by {@html repo.authors.map(a => `<a href=${a.link} target="_blank">${a.username}</a>`).join(", ")}</CardSubtitle>
+    <CardSubtitle class="text-muted">by {@html repo.authors.map(a => `<a href=${a.link} target="_blank">${a.username}</a>`).join(", ")}</CardSubtitle>
     <CardText>{repo.text}</CardText>
-    <a href={repo.repo} class="btn btn-outline-dark"><Icon name="box-arrow-up-right" /> Go to repo</a>
+    <a href={repo.repo} class="btn btn-outline-secondary"><Icon name="box-arrow-up-right" /> Go to repo</a>
   </CardBody>
+  <CardFooter class="text-muted">Copyright &copy; 2022 Syrup</CardFooter>
 </Card>
 {/each}
 
