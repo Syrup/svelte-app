@@ -1,6 +1,6 @@
 <script>
   import Markdoc from "@markdoc/markdoc"
-  import fs from "fs"
+  import util from "../routes/util"
   import path from "path"
   import fm from "front-matter"
   import Handlebars from "handlebars"
@@ -9,7 +9,7 @@
   let paths
   let vars
   
-  const file = fs.readFileSync(path.join("..", "markdown", paths), "utf8")
+  const file = util.readFile(path.join("..", "markdown", paths), "utf8")
   
   const fmm = fm(file)
   
