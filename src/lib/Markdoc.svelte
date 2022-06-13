@@ -9,7 +9,7 @@
   let paths
   let vars
   
-  const file = util.readFile(path.join("markdown", paths), "utf8")
+  const file = util.readFile(path.join("src", "markdown", paths), "utf8")
   
   const fmm = fm(file)
   
