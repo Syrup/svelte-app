@@ -47,10 +47,10 @@
 <br />
 
 <Card body>
-  My project
-  
-  <Button on:click={toggleGithub}><Icon name="github" /> Github</Button>
-  <Fade bind:isOpen={isGithubOpen}>
+  <h4>My project</h4>
+  <br />
+  <Button id="github"><Icon name="github" /> Github</Button>
+  <Fade class="mb-4" target="#github">
     <Github />
   </Fade>
 </Card>
