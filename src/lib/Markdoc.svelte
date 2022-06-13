@@ -5,11 +5,11 @@
   import fm from "front-matter"
   import Handlebars from "handlebars"
   
-  export { path, vars }
-  let path
+  export { paths as path, vars }
+  let paths
   let vars
   
-  const file = fs.readFileSync(path.join("..", "markdown", path), "utf8")
+  const file = fs.readFileSync(path.join("..", "markdown", paths), "utf8")
   
   const fmm = fm(file)
   
