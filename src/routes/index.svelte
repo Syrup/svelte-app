@@ -45,23 +45,14 @@
 
 <h1>Home</h1>
 <br />
-{#await promise}
-<p>Loading...</p>
-{:then users}
-  {#each users as user}
-    <h5>{user.name}</h5>
-  {/each}
-{:catch err}
-<h3>{err}</h3>
-{/await}
 
 {#each repos as repo}
-<Card color="dark" class="mb-3">
+<Card color="dark" class="mb-3 text-white">
   <CardHeader>
     <CardTitle>{repo.name}</CardTitle>
   </CardHeader>
   <CardBody>
-    <CardSubtitle>by {@html repo.authors.map(a => `<a href=${a.link} target="_blank">${a.name}</a>`).join(", ")}</CardSubtitle>
+    <CardSubtitle>by {@html repo.authors.map(a => `<a href=${a.link} target="_blank">${a.username}</a>`).join(", ")}</CardSubtitle>
     <CardText>{repo.text}</CardText>
     <a href={repo.repo} class="btn btn-outline-dark"><Icon name="box-arrow-up-right" /> Go to repo</a>
   </CardBody>
