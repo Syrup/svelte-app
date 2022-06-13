@@ -29,7 +29,7 @@
 		"front-matter": "latest",
 		"handlebars": "latest",
 		"svelte-check": "^2.7.1",
-		"typescript": "^4.7.2",
+		"typescript": "^4.7.2"
 	},
 	"type": "module"
 }
