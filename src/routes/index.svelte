@@ -43,11 +43,7 @@
   <Card body>
     <h4>My project</h4>
     <br />
-    <Row>
-      <Col sm={{ size: "auto" }}>
-        <Button id="github" class="mb-3"><Icon name="github" /> Github</Button>
-      </Col>
-    </Row>
+    <Col class="col-6 mx-auto"><Button id="github" class="mb-3"><Icon name="github" /> Github</Button></Col>
     <Collapse toggler="#github">
       <Github />
     </Collapse>
