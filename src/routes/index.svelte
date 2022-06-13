@@ -48,7 +48,7 @@
 <br />
 
 {#each repos as repo}
-<Card color="dark" inverse class="mb-3">
+<Card color="light" class="mb-3">
   <CardHeader>
     <CardTitle>{repo.name}</CardTitle>
   </CardHeader>
