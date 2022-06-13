@@ -9,7 +9,7 @@
   let paths
   let vars
   
-  const file = util.readFile(`../markdown/${paths}`, "utf8")
+  const file = util.readFile(path.join(process.cwd(), "markdown", paths), "utf8")
   
   const fmm = fm(file)
   
