@@ -9,8 +9,8 @@
 
 <Styles />
 
-<Container>
 <Nav />
+<Container>
 
 <button on:click={changeName}></button>
 <h1>Hello {name}</h1>

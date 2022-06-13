@@ -25,6 +25,9 @@
 		"svelte-preprocess": "latest",
 		"rollup-plugin-postcss": "latest",
 		"@fortawesome/fontawesome-free": "latest",
+		"@markdoc/markdoc": "latest",
+		"front-matter": "latest",
+		"handlebars": "latest",
 		"svelte-check": "^2.7.1",
 		"typescript": "^4.7.2"
 	},
