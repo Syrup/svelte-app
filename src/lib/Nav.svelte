@@ -1,7 +1,6 @@
 <script>
   import { Styles, Navbar, Nav, NavbarToggler, NavItem, NavLink, NavbarBrand, Dropdown, DropdownMenu, DropdownItem, DropdownToggle, Icon } from "sveltestrap-new"
-  import pkg from "sveltestrap-new"
-  const { Collapse } = pkg
+  import { Collapse } from "sveltestrap"
   
   let isOpen = false
   const toggle = () => isOpen = !isOpen
