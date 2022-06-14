@@ -15,7 +15,7 @@
       </NavItem>
       <Dropdown nav inNavbar>
         <DropdownToggle nav caret><Icon name="link-45deg" /> Links</DropdownToggle>
-        <DropdownMenu end>
+        <DropdownMenu end dark>
           <DropdownItem><a href="https://github.com/Syrup" class="btn btn-dark"><Icon name="github" /> Github</a></DropdownItem>
         </DropdownMenu>
       </Dropdown>
