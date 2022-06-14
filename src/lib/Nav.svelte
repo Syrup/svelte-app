@@ -14,8 +14,8 @@
         <NavLink href="/about"><Icon name="person" /> About</NavLink>
       </NavItem>
       <Dropdown nav inNavbar>
-        <DropdownToggle nav caret><Icon name="link-45deg" /> Links</DropdownToggle>
-        <DropdownMenu end dark>
+        <DropdownToggle data-bs-auto-close="false" nav caret><Icon name="link-45deg" /> Links</DropdownToggle>
+        <DropdownMenu aria-labelledby="dropdownMenuClickable" end dark>
           <DropdownItem><a href="https://github.com/Syrup" class="btn btn-light"><Icon name="github" /> Github</a></DropdownItem>
           <DropdownItem><a href="https://trakteer.id/syrup" class="btn btn-danger">Trakteer</a></DropdownItem>
           <DropdownItem><a href="https://ko-fi.com/Sirup" class="btn btn-info">Ko-fi</a></DropdownItem>
