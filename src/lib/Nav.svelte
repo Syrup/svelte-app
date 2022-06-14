@@ -13,7 +13,6 @@
       <NavItem>
         <NavLink href="/about">About</NavLink>
       </NavItem>
-      <NavItem>
       <Dropdown nav inNavbar>
         <DropdownToggle nav caret><Icon name="link-45deg" /> Links</DropdownToggle>
         <DropdownMenu end>
