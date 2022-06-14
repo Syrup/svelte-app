@@ -6,12 +6,12 @@
 </script>
 
 <Navbar color="dark" dark>
-  <NavbarBrand href="/" class="me-auto">svelte-app</NavbarBrand>
+  <NavbarBrand href="/" class="me-auto"><Icon name="house-door" /> svelte-app</NavbarBrand>
   <NavbarToggler on:click={toggle} class="me-2" />
   <Collapse {isOpen} navbar>
     <Nav navbar>
       <NavItem>
-        <NavLink href="/about">About</NavLink>
+        <NavLink href="/about"><Icon name="person" /> About</NavLink>
       </NavItem>
       <Dropdown nav inNavbar>
         <DropdownToggle nav caret><Icon name="link-45deg" /> Links</DropdownToggle>
