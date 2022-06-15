@@ -22,7 +22,6 @@
 		"bulma": "latest",
 		"svelma": "latest",
 		"node-sass": "latest",
-		"sveltestrap-new": "github:dysfunc/sveltestrap#auto-close",
 		"svelte-preprocess": "latest",
 		"rollup-plugin-postcss": "latest",
 		"@fortawesome/fontawesome-free": "latest",

@@ -1,6 +1,5 @@
 <script>
-  import { Styles, Navbar, Nav, NavbarToggler, NavItem, NavLink, NavbarBrand, Dropdown, DropdownMenu, DropdownItem, DropdownToggle, Icon } from "sveltestrap-new"
-  import { Collapse } from "sveltestrap"
+  import { Styles, Navbar, Nav, NavbarToggler, NavItem, NavLink, NavbarBrand, Collapse, Dropdown, DropdownMenu, DropdownItem, DropdownToggle, Icon } from "sveltestrap"
   
   let isOpen = false
   const toggle = () => isOpen = !isOpen
@@ -14,7 +13,7 @@
       <NavItem>
         <NavLink href="/about"><Icon name="person" /> About</NavLink>
       </NavItem>
-      <Dropdown autoClose={false} nav inNavbar>
+      <Dropdown nav inNavbar>
         <DropdownToggle nav caret><Icon name="link-45deg" /> Links</DropdownToggle>
         <DropdownMenu end dark>
           <DropdownItem><a href="https://github.com/Syrup" class="btn btn-light"><Icon name="github" /> Github</a></DropdownItem>
